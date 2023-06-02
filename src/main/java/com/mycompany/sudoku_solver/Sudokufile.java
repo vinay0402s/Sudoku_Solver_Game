@@ -104,7 +104,7 @@ public class Sudokufile extends javax.swing.JFrame {
                 }
              }
              if(flag==true){
-               btns[i][j].setText("");
+               btns[i][j].setText(solveBoard [i][j]);
                btns[i][j].setForeground(black);
                btns[i][j].setBackground(white);
             }
